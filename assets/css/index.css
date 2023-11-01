@@ -253,7 +253,7 @@ i {
   font-size: 3em;
   position: absolute;
   top: 10%;
-  left: 20%;
+  left: 25%;
   width: 120%;
   height: auto;
 }
@@ -288,9 +288,9 @@ i {
 .fast-img > img {
   font-size: 3em;
   position: absolute;
-  top: -5%;
-  left: 17%;
-  width: 65%;
+  top: 5%;
+  left: 24%;
+  width: 50%;
   height: auto;
 }
 
