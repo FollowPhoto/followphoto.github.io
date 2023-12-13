@@ -1,202 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link href="assets/css/index.css" rel="stylesheet">
-
-    <title>Aqua App</title>
-</head>
-<body>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      <link href="assets/css/index.css" rel="stylesheet">
+      <title>FollowPhoto App</title>
+  </head>
+  <body>
     <section>
-        <div class="container container-about-app">
-            <div class="section-about-app">
-                <div class="row justify-content-center">
-                  <div class="col-12">
-                    <h1 class="section-about-app-icon">
-                        <img src="assets/img/icon-2x.png">
-                    </h1>
-                  </div>
-                  <div class="col-12 mt-3">
-                      <h1 class="section-about-app-text">
-                          Take control of your GPX
-                      </h1>
-                  </div>
-                    <div class="col-12 mt-3">
-                        <p class="section-about-app-text-under">
-                            Manage your GPX files easy, and create them by photos.
-                        </p>
-                    </div>
-
-                    <div class="col-12 mt-3 section-about-app-buttons">
-                      <a href="https://quasar-sprite-2a0.notion.site/Guides-81fd747fae974de1b1595a7351ae0dc7?pvs=4" class="button">Download</a>
-                      <a href="https://quasar-sprite-2a0.notion.site/FAQ-2aabce480c73490eb60070c03df255bc?pvs=4" class="button">Help</a>
-                    </div>
-
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 mt-5">
-                        <div class="photo-preview-img">
-                            <img src="assets/img/app-screen-half.png" class="img-photo-preview-pic center-img">
-                        </div>
-                    </div>
-                </div>
+      <div class="container container-about-app">
+        <div class="section-about-app">
+          <div class="row justify-content-center">
+            <div class="col-12">
+              <h1 class="section-about-app-icon">
+                <img src="assets/img/icon-2x.png">
+              </h1>
             </div>
-            
+            <div class="col-12 mt-3">
+              <h1 class="section-about-app-text">
+                FollowPhoto
+              </h1>
+            </div>
+            <div class="col-12 mt-3">
+              <p class="section-about-app-text-under">
+                Manage your GPX files easy, and create them by photos.
+              </p>
+            </div>
+            <div class="col-12 mt-3 section-about-app-buttons">
+              <a href="https://quasar-sprite-2a0.notion.site/Guides-81fd747fae974de1b1595a7351ae0dc7?pvs=4" class="button">Download</a>
+              <a href="https://quasar-sprite-2a0.notion.site/FAQ-2aabce480c73490eb60070c03df255bc?pvs=4" class="button">Help</a>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 mt-5">
+              <div class="photo-preview-img">
+                <img src="assets/img/app-screen-half.png" class="img-photo-preview-pic center-img">
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <section>
-        <div class="container container-details-app">
-            <h1 class="h1-details-app p-5">FEATURES</h1>
-            <div class="container-cards-details-app">
+      <div class="container card-section">
+        <h1 class="h1-details-app p-5">FEATURES</h1>
+        <div class="cards-container">
+          <div class="row cards">
+            <div class="col-12 col-lg-6 card">
               <div class="cards-gradient"></div>
-              <div id="cards">
-                    <div class="card">
-                      <div class="card-content">
-                        <div class="card-image">
-                          <div class="merge-img">
-                            <img decoding="async" src="/assets/img/Merge-card.png">
-                          </div>
-                        </div>
-                        <div class="card-info-wrapper">
-                          <div class="card-info">
-                            <i class="fa-duotone fa-apartment"></i>
-                            <div class="card-info-title">
-                              <h3 class="cards-h3">Merge</h3>  
-                              <h4 class="cards-h4">Merge several GPX in one</h4>
-                            </div>    
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <div class="card-content">
-                        <div class="card-image">
-                          <div class="photos-img">
-                            <img decoding="async" src="/assets/img/Photos-card.png">
-                          </div>
-                        </div>
-                        <div class="card-info-wrapper">
-                          <div class="card-info">
-                            <i class="fa-duotone fa-unicorn"></i>
-                            <div class="card-info-title">
-                              <h3 class="cards-h3">Photos</h3>  
-                              <h4 class="cards-h4">Add GPS to photos by other photos</h4>
-                            </div>    
-                          </div>  
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <div class="card-content">
-                        <div class="card-image">
-                          <div class="route-img">
-                            <img decoding="async" src="/assets/img/Route-card.png">
-                          </div>
-                        </div>
-                        <div class="card-info-wrapper">
-                          <div class="card-info">
-                            <i class="fa-duotone fa-blender-phone"></i>
-                            <div class="card-info-title">
-                              <h3 class="cards-h3">Routes</h3>  
-                              <h4 class="cards-h4">Create routes by photos with GPS</h4>
-                            </div>    
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <div class="card-content">
-                        <div class="card-image">
-                          <div class="custom-m-img">
-                            <img decoding="async" src="/assets/img/custom-marker-card.png">
-                          </div>
-                        </div>
-                        <div class="card-info-wrapper">
-                          <div class="card-info">
-                            <i class="fa-duotone fa-person-to-portal"></i>
-                            <div class="card-info-title">
-                              <h3 class="cards-h3">You were there?</h3>  
-                              <h4 class="cards-h4">Add custom markers if you were there</h4>
-                            </div>    
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <div class="card-content">
-                        <div class="card-image">
-                          <div class="themes-img">
-                            <img decoding="async" src="/assets/img/Themes-card.png">
-                          </div>
-                        </div>
-                        <div class="card-info-wrapper">
-                          <div class="card-info">
-                            <i class="fa-duotone fa-person-from-portal"></i>
-                            <div class="card-info-title">
-                              <h3 class="cards-h3">Make it yours</h3>  
-                              <h4 class="cards-h4">Themes, colors, settings</h4>
-                            </div>    
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <div class="card-content">
-                        <div class="card-image">
-                          <i class="fast-img">
-                            <img decoding="async" src="/assets/img/fast-card.png">
-                          </i>
-                        </div>
-                        <div class="card-info-wrapper">
-                          <div class="card-info">
-                            <i class="fa-duotone fa-otter"></i>
-                            <div class="card-info-title">
-                              <h3 class="cards-h3">Really fast</h3>  
-                              <h4 class="cards-h4">Designed to be comfortable and fast</h4>
-                            </div>    
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                </div>
+              <h3>All in one</h3>
+              <p>Merge several GPX in one</p>
+              <img class="route-img" src="assets/img/Merge-card.png">
             </div>
+            <div class="col-12 col-sm-12 col-lg-6 card">
+              <div class="cards-gradient"></div>
+              <h3>Photos as a point</h3>
+              <p>Create approximate route where you were</p>
+              <img class="point-img" src="assets/img/custom-marker-card.png">
+            </div>
+          </div>
+          <div class="row cards mt-4"> 
+            <div class="row cards-smaller">
+              <div class="col-12 col-lg-6 card card-smaller">
+                <div class="cards-gradient"></div>
+                <h3>You were there?</h3>
+                <p>Custom markers give you the ability to consider places even if you didn't take photos in that place</p>
+              </div>
+              <div class="col-12 col-lg-6 card card-smaller card-centered-text">
+                <div class="cards-gradient"></div>
+                <h3>Make it yours</h3>
+                <p>Themes, colors, settings</p>
+                <img class="themes-img" src="assets/img/themes-card.png">
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 card">
+              <div class="cards-gradient"></div>
+              <h3>Coordinates everywhere</h3>
+              <p>Use route to add coordinates even if photos doesn't have it</p>
+              <img class="photos-img" src="assets/img/Photos-card.png">
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="container little-feature">
+        <hr class="divider">
+        <h4>
+          <svg width="20" height="20" class="little-feature-svg" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
+            <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" stroke="none">
+              <path d="M1884 4826 c-109 -51 -79 25 -529 -1325 -300 -900 -405 -1228 -405
+              -1262 0 -102 56 -191 148 -236 l57 -28 496 -3 495 -3 -148 -667 c-81 -367
+              -148 -676 -148 -688 0 -11 7 -45 16 -75 29 -100 149 -189 254 -189 41 0 115
+              25 151 50 37 27 1770 2103 1795 2151 26 51 30 150 9 206 -24 62 -79 121 -140
+              149 -50 24 -50 24 -484 24 -342 0 -432 3 -428 13 3 6 161 363 352 791 233 525
+              348 794 352 826 12 105 -53 220 -151 266 l-51 24 -795 0 -795 0 -51 -24z"/>
+            </g>
+          </svg>
+          <span>Remarkably fast.&nbsp;</span> 
+          Designed to be comfortable and fast!
+        </h4>
+      </div>
     </section>
     <footer class="footer">
       <div class="container">
         <div class="row">
           <div class="col-12 p-5">
             <div class="row">
-              <div class="col-12 footer-name">
-                <svg width="20" height="20" viewBox="0 0 684 684" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <mask id="mask0_302_18994" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="684" height="684">
-                    <rect x="0.666687" y="0.666672" width="682.667" height="682.667" fill="#D9D9D9"/>
-                  </mask>
-                  <g mask="url(#mask0_302_18994)">
-                    <path d="M256.667 598C225.378 598 198.593 586.859 176.311 564.578C154.03 542.296 142.889 515.511 142.889 484.222V251.689C126.296 245.526 112.667 235.215 102 220.756C91.3333 206.296 86 189.822 86 171.333C86 147.63 94.2963 127.481 110.889 110.889C127.481 94.2963 147.63 86 171.333 86C195.037 86 215.185 94.2963 231.778 110.889C248.37 127.481 256.667 147.63 256.667 171.333C256.667 189.822 251.333 206.296 240.667 220.756C230 235.215 216.37 245.526 199.778 251.689V484.222C199.778 499.867 205.348 513.259 216.489 524.4C227.63 535.541 241.022 541.111 256.667 541.111C272.311 541.111 285.704 535.541 296.844 524.4C307.985 513.259 313.556 499.867 313.556 484.222V199.778C313.556 168.489 324.696 141.704 346.978 119.422C369.259 97.1407 396.044 86 427.333 86C458.622 86 485.407 97.1407 507.689 119.422C529.97 141.704 541.111 168.489 541.111 199.778V432.311C557.704 438.474 571.333 448.785 582 463.244C592.667 477.704 598 494.178 598 512.667C598 536.37 589.704 556.519 573.111 573.111C556.519 589.704 536.37 598 512.667 598C488.963 598 468.815 589.704 452.222 573.111C435.63 556.519 427.333 536.37 427.333 512.667C427.333 494.178 432.667 477.585 443.333 462.889C454 448.193 467.63 438 484.222 432.311V199.778C484.222 184.133 478.652 170.741 467.511 159.6C456.37 148.459 442.978 142.889 427.333 142.889C411.689 142.889 398.296 148.459 387.156 159.6C376.015 170.741 370.444 184.133 370.444 199.778V484.222C370.444 515.511 359.304 542.296 337.022 564.578C314.741 586.859 287.956 598 256.667 598ZM171.333 199.778C179.393 199.778 186.148 197.052 191.6 191.6C197.052 186.148 199.778 179.393 199.778 171.333C199.778 163.274 197.052 156.519 191.6 151.067C186.148 145.615 179.393 142.889 171.333 142.889C163.274 142.889 156.519 145.615 151.067 151.067C145.615 156.519 142.889 163.274 142.889 171.333C142.889 179.393 145.615 186.148 151.067 191.6C156.519 197.052 163.274 199.778 171.333 199.778ZM512.667 541.111C520.726 541.111 527.482 538.385 532.933 532.933C538.385 527.482 541.111 520.726 541.111 512.667C541.111 504.607 538.385 497.852 532.933 492.4C527.482 486.948 520.726 484.222 512.667 484.222C504.607 484.222 497.852 486.948 492.4 492.4C486.948 497.852 484.222 504.607 484.222 512.667C484.222 520.726 486.948 527.482 492.4 532.933C497.852 538.385 504.607 541.111 512.667 541.111Z" fill="#F8F8F8"/>
-                  </g>
+              <div class="col-12 footer-name fqyXPs">
+                <svg width="20" height="20" viewBox="0 0 684 684">
+                    <mask id="mask0_302_18994" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="684" height="684">
+                        <rect x="0.666687" y="0.666672" width="682.667" height="682.667" fill="#D9D9D9"/>
+                    </mask>
+                    <g mask="url(#mask0_302_18994)">
+                        <path d="M256.667 598C225.378 598 198.593 586.859 176.311 564.578C154.03 542.296 142.889 515.511 142.889 484.222V251.689C126.296 245.526 112.667 235.215 102 220.756C91.3333 206.296 86 189.822 86 171.333C86 147.63 94.2963 127.481 110.889 110.889C127.481 94.2963 147.63 86 171.333 86C195.037 86 215.185 94.2963 231.778 110.889C248.37 127.481 256.667 147.63 256.667 171.333C256.667 189.822 251.333 206.296 240.667 220.756C230 235.215 216.37 245.526 199.778 251.689V484.222C199.778 499.867 205.348 513.259 216.489 524.4C227.63 535.541 241.022 541.111 256.667 541.111C272.311 541.111 285.704 535.541 296.844 524.4C307.985 513.259 313.556 499.867 313.556 484.222V199.778C313.556 168.489 324.696 141.704 346.978 119.422C369.259 97.1407 396.044 86 427.333 86C458.622 86 485.407 97.1407 507.689 119.422C529.97 141.704 541.111 168.489 541.111 199.778V432.311C557.704 438.474 571.333 448.785 582 463.244C592.667 477.704 598 494.178 598 512.667C598 536.37 589.704 556.519 573.111 573.111C556.519 589.704 536.37 598 512.667 598C488.963 598 468.815 589.704 452.222 573.111C435.63 556.519 427.333 536.37 427.333 512.667C427.333 494.178 432.667 477.585 443.333 462.889C454 448.193 467.63 438 484.222 432.311V199.778C484.222 184.133 478.652 170.741 467.511 159.6C456.37 148.459 442.978 142.889 427.333 142.889C411.689 142.889 398.296 148.459 387.156 159.6C376.015 170.741 370.444 184.133 370.444 199.778V484.222C370.444 515.511 359.304 542.296 337.022 564.578C314.741 586.859 287.956 598 256.667 598ZM171.333 199.778C179.393 199.778 186.148 197.052 191.6 191.6C197.052 186.148 199.778 179.393 199.778 171.333C199.778 163.274 197.052 156.519 191.6 151.067C186.148 145.615 179.393 142.889 171.333 142.889C163.274 142.889 156.519 145.615 151.067 151.067C145.615 156.519 142.889 163.274 142.889 171.333C142.889 179.393 145.615 186.148 151.067 191.6C156.519 197.052 163.274 199.778 171.333 199.778ZM512.667 541.111C520.726 541.111 527.482 538.385 532.933 532.933C538.385 527.482 541.111 520.726 541.111 512.667C541.111 504.607 538.385 497.852 532.933 492.4C527.482 486.948 520.726 484.222 512.667 484.222C504.607 484.222 497.852 486.948 492.4 492.4C486.948 497.852 484.222 504.607 484.222 512.667C484.222 520.726 486.948 527.482 492.4 532.933C497.852 538.385 504.607 541.111 512.667 541.111Z" fill="#F8F8F8"/>
+                    </g>
                 </svg>
-                Aqua app - GPX manager
-              </div>
-              <div class="col-12 fqyXPs">
-                <p>
-                  Designed and developed by  
-                </p>
-                <a href="https://github.com/execOQ/">
-                  consequential
-                <svg width="10" height="10" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M9.125 0.671875V6.76562C9.125 7.12109 8.8457 7.375 8.51562 7.375C8.16016 7.375 7.90625 7.12109 7.90625 6.76562V2.14453L2.04102 8.00977C1.91406 8.13672 1.76172 8.1875 1.60938 8.1875C1.43164 8.1875 1.2793 8.13672 1.17773 8.00977C0.923828 7.78125 0.923828 7.40039 1.17773 7.17188L7.04297 1.28125H2.42188C2.06641 1.28125 1.8125 1.02734 1.8125 0.671875C1.8125 0.341797 2.06641 0.0625 2.42188 0.0625H8.51562C8.8457 0.0625 9.125 0.341797 9.125 0.671875Z" fill="currentColor"></path>
+                <a href="index.html">
+                    Aqua app - GPX manager
+                </a>
+            </div>
+              <div class="col-12 fqyXPs privacy-policy-href">
+                <a href="privacy-policy.html">
+                  Privacy policy
+                  <svg width="10" height="10" viewBox="0 0 10 9">
+                    <path d="M9.125 0.671875V6.76562C9.125 7.12109 8.8457 7.375 8.51562 7.375C8.16016 7.375 7.90625 7.12109 7.90625 6.76562V2.14453L2.04102 8.00977C1.91406 8.13672 1.76172 8.1875 1.60938 8.1875C1.43164 8.1875 1.2793 8.13672 1.17773 8.00977C0.923828 7.78125 0.923828 7.40039 1.17773 7.17188L7.04297 1.28125H2.42188C2.06641 1.28125 1.8125 1.02734 1.8125 0.671875C1.8125 0.341797 2.06641 0.0625 2.42188 0.0625H8.51562C8.8457 0.0625 9.125 0.341797 9.125 0.671875Z" fill="currentColor"></path>
                   </svg>
                 </a>
+              </div>
+              <div class="col-12 fqyXPs ">
+                <a href="terms-of-use.html">
+                  Terms of use
+                  <svg width="10" height="10" viewBox="0 0 10 9">
+                    <path d="M9.125 0.671875V6.76562C9.125 7.12109 8.8457 7.375 8.51562 7.375C8.16016 7.375 7.90625 7.12109 7.90625 6.76562V2.14453L2.04102 8.00977C1.91406 8.13672 1.76172 8.1875 1.60938 8.1875C1.43164 8.1875 1.2793 8.13672 1.17773 8.00977C0.923828 7.78125 0.923828 7.40039 1.17773 7.17188L7.04297 1.28125H2.42188C2.06641 1.28125 1.8125 1.02734 1.8125 0.671875C1.8125 0.341797 2.06641 0.0625 2.42188 0.0625H8.51562C8.8457 0.0625 9.125 0.341797 9.125 0.671875Z" fill="currentColor"></path>
+                  </svg>
+                </a>
+              </div>
+              <div class="col-12 fqyXPs creator-href">
+                <p>
+                  Designed and developed by <a href="https://github.com/execOQ/">
+                    consequential
+                  <svg width="10" height="10" viewBox="0 0 10 9">
+                    <path d="M9.125 0.671875V6.76562C9.125 7.12109 8.8457 7.375 8.51562 7.375C8.16016 7.375 7.90625 7.12109 7.90625 6.76562V2.14453L2.04102 8.00977C1.91406 8.13672 1.76172 8.1875 1.60938 8.1875C1.43164 8.1875 1.2793 8.13672 1.17773 8.00977C0.923828 7.78125 0.923828 7.40039 1.17773 7.17188L7.04297 1.28125H2.42188C2.06641 1.28125 1.8125 1.02734 1.8125 0.671875C1.8125 0.341797 2.06641 0.0625 2.42188 0.0625H8.51562C8.8457 0.0625 9.125 0.341797 9.125 0.671875Z" fill="currentColor"></path>
+                  </svg>
+                  </a>
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </footer>
-
     
     <script src="assets/js/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
+  </body>
 </html>
